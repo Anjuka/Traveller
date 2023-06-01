@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/cl_main">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Registration"
+        android:textColor="@color/white"
+        android:fontFamily="@font/mulish_variablefont"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/et_mail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbox_back"
+                android:fontFamily="@font/mulish_variablefont"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbox_back"
+                android:fontFamily="@font/mulish_variablefont"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_mail" />
+
+            <EditText
+                android:id="@+id/et_password_re"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbox_back"
+                android:fontFamily="@font/mulish_variablefont"
+                android:hint="Re - Password"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbox_back"
+                android:fontFamily="@font/mulish_variablefont"
+                android:hint="Name"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_password_re" />
+
+            <EditText
+                android:id="@+id/et_tel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbox_back"
+                android:fontFamily="@font/mulish_variablefont"
+                android:hint="Tel"
+                android:inputType="phone"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_name" />
+
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/et_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:ccp_arrowColor="@color/white"
+                app:ccp_showFullName="true"
+                app:ccp_showNameCode="false"
+                app:ccp_showPhoneCode="false"
+                app:ccp_autoDetectCountry="true"
+                app:ccp_contentColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_tel"
+                app:ccpDialog_textColor="@color/colorPrimaryDark"
+                android:background="@drawable/textbox_back"
+                app:ccp_padding="10dp"
+                app:ccp_textSize="14sp"
+                app:ccp_textGravity="LEFT"
+                app:ccpDialog_searchEditTextTint="@color/colorPrimaryDark"/>
+
+<!--
+            <EditText
+                android:id="@+id/et_country"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbox_back"
+                android:fontFamily="@font/mulish_variablefont"
+                android:hint="Country"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_tel" />
+-->
+
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:background="@drawable/logbtn_back"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/mulish_variablefont"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_country" />
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:fontFamily="@font/mulish_variablefont"
+                android:textAlignment="center"
+                android:text="If you already have account,\nPlease login here..."
+                app:layout_constraintEnd_toEndOf="@+id/btn_register"
+                app:layout_constraintStart_toStartOf="@+id/btn_register"
+                app:layout_constraintTop_toBottomOf="@+id/btn_register" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

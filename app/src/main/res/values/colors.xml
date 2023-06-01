@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#208DFA</color>
+    <color name="colorPrimaryDark">#232E42</color>
+    <color name="colorAccent">#208DFA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#111111</color>
+    <color name="splash_background">#C4E8E5</color>
+    <color name="seventy_white">#1BFFFFFF</color>
+    <color name="gray">#434748</color>
+
+    <color name="preset_card_back_cl">#233653</color>
+    <color name="preset_text_back_cl">#254973</color>
+    <color name="preset_text_back_cl_boder">#232E42</color>
+    <color name="preset_text_deselect_color">#80CCD4DF</color>
+    <color name="spinner_gray">#DDAFAFAF</color>
+    <color name="transparent">#00000000</color>
+</resources>

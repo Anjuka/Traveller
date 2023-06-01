@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <layer-list>
+
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/preset_text_back_cl"/>
+                    <corners android:radius="8px"/>
+                    <padding android:right="24px"/>
+                    <stroke android:color="@color/preset_text_back_cl_boder"
+                        android:width=".5px"/>
+                </shape>
+            </item>
+
+            <item>
+
+                <bitmap android:gravity="center|end"
+                    android:src="@drawable/drop"/>
+
+            </item>
+
+
+            <!--<item>
+
+                <bitmap
+                    android:gravity="center|end"
+                    android:src="@drawable/ic_indi_down_foreground" />
+
+            </item>-->
+
+
+        </layer-list>
+
+    </item>
+
+</selector>

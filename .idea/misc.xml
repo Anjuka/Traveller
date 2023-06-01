@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background_received_msg.xml" value="0.267" />
+        <entry key="app/src/main/res/drawable/background_send_msg.xml" value="0.267" />
+        <entry key="app/src/main/res/drawable/drop.xml" value="0.1855" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.3765" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.267" />
+        <entry key="app/src/main/res/drawable/ic_baseline_boy_24.xml" value="0.2965" />
+        <entry key="app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.24" />
+        <entry key="app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.24" />
+        <entry key="app/src/main/res/drawable/ic_baseline_push_pin_24.xml" value="0.2965" />
+        <entry key="app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.24" />
+        <entry key="app/src/main/res/drawable/item_back.xml" value="0.2965" />
+        <entry key="app/src/main/res/drawable/samart_spinner_background.xml" value="0.2215" />
+        <entry key="app/src/main/res/drawable/temp_spinner.xml" value="0.1855" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.30854700854700856" />
+        <entry key="app/src/main/res/layout/activity_guideline.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_images.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_individual_chat.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.23162393162393163" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_map.xml" value="0.23162393162393163" />
+        <entry key="app/src/main/res/layout/activity_plan.xml" value="0.24092407226562504" />
+        <entry key="app/src/main/res/layout/activity_plan_question.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_post_create.xml" value="0.30854700854700856" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_registration.xml" value="0.6333333333333333" />
+        <entry key="app/src/main/res/layout/activity_service.xml" value="0.23162393162393163" />
+        <entry key="app/src/main/res/layout/activity_service_post.xml" value="0.30854700854700856" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3342569986979167" />
+        <entry key="app/src/main/res/layout/activity_user_profile.xml" value="0.25507354736328125" />
+        <entry key="app/src/main/res/layout/activity_video.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/item_chat_user.xml" value="0.30854700854700856" />
+        <entry key="app/src/main/res/layout/item_guideline.xml" value="0.23162393162393163" />
+        <entry key="app/src/main/res/layout/item_image.xml" value="0.30854700854700856" />
+        <entry key="app/src/main/res/layout/item_plan.xml" value="0.30854700854700856" />
+        <entry key="app/src/main/res/layout/item_posts.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/item_received_msg.xml" value="0.30854700854700856" />
+        <entry key="app/src/main/res/layout/item_send_msg.xml" value="0.30854700854700856" />
+        <entry key="app/src/main/res/layout/item_vd.xml" value="0.3076923076923077" />
+        <entry key="app/src/main/res/layout/nav_head.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/spinner_item_usermang.xml" value="0.23076923076923078" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.37604166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

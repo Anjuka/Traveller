@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_baseline_chat_24"
+            android:iconTint="@color/colorPrimaryDark"
+            android:title="Chat" />
+
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_baseline_videocam_24"
+            android:title="Video" />
+
+        <item
+            android:id="@+id/nav_images"
+            android:icon="@drawable/ic_baseline_image_24"
+            android:title="Images" />
+
+        <item
+            android:id="@+id/nav_guid"
+            android:icon="@drawable/ic_baseline_travel_explore_24"
+            android:title="Guideline" />
+
+        <item
+            android:id="@+id/nav_travel_plans"
+            android:icon="@drawable/ic_baseline_travel_explore_24"
+            android:title="Travel Plans" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="Map" />
+
+
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_outline_clean_hands_24"
+            android:title="Services" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_power_settings_new_24"
+            android:title="Logout" />
+
+    </group>
+</menu>

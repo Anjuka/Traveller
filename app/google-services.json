@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "335584317731",
+    "firebase_url": "https://traveller-preeniproject-default-rtdb.firebaseio.com",
+    "project_id": "traveller-preeniproject",
+    "storage_bucket": "traveller-preeniproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335584317731:android:f8affa7246da256583bc96",
+        "android_client_info": {
+          "package_name": "com.preeni.traveller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335584317731-sk1k9slt930d9lehdv2h19c6s7oov6ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWDMSK1OnFCZvN2E1aB4tekgnj3ocZZwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335584317731-sk1k9slt930d9lehdv2h19c6s7oov6ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335584317731:android:5b2b52d806ddd89183bc96",
+        "android_client_info": {
+          "package_name": "com.preeni.traveller_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335584317731-sk1k9slt930d9lehdv2h19c6s7oov6ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWDMSK1OnFCZvN2E1aB4tekgnj3ocZZwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335584317731-sk1k9slt930d9lehdv2h19c6s7oov6ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
